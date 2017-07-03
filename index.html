@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!--320-->
+    <title>Watchtower</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+</head>
+
+<body>
+    <div id="watchtower">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="img/coat-of-arms.png" alt="Logo">
+                <h1>Federal Ministry of Power, Works & Housing</h1>
+                <h2>Project Monitoring Console</h2>
+            </div>
+            <div class="sidebar-stats">
+                <div>
+                    <h3>168,322,915,740.95</h3>
+                    <h5>Disbursed to date</h5>
+                </div>
+                <div>
+                    <h3>330</h3>
+                    <h5>Active Projects</h5>
+                </div>
+                <div>
+                    <h3>130 / 519 (25%)</h3>
+                    <h5>Milestones Reached</h5>
+                </div>
+            </div>
+            <div class="sidebar-projects">
+                <div class="sidebar-search">
+                    <input type="text" placeholder="Search for a project">
+                </div>
+                <div class="sidebar-list">
+                    <div v-for="project in projects">
+                        <a class="sidebar-project" v-on:click="show(project.id)">
+                            <h3>{{project.title}}</h3>
+                            <div class="sidebar-project-progress">
+                                <div class="sidebar-project-level" v-bind:style="{width: project.percent_completion + '%'}"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project" class="animated fadeIn" v-if="active">
+            <div class="project-overlay" v-on:click="active = null"></div>
+            <div class="project-content">
+                <div class="project-stats">
+                    <h2>{{active.title}}</h2>
+                    <div class="project-progress">
+                    	<div class="project-level" v-bind:style="{width: active.percent_completion + '%'}"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <h3>Jaunary 28, 2016</h3>
+                            <h5>Start Date</h5>
+                        </div>
+                        <div class="col-xs-4">
+                            <h3>Day 6 of 50</h3>
+                            <h5>Current day in cycle</h5>
+                        </div>
+                        <div class="col-xs-4">
+                            <h3>168,322,915,740.95</h3>
+                            <h5>Disbursed to date</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <div class="project-section-title">Pictures</div>
+                    <div class="project-pictures project-section-content">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="project-picture-group">
+                                    <div class="project-picture-wrap"><img src="http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg" alt="Image"></div>
+                                    <h5>Drone Pictures (10)</h5>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="project-picture-group">
+                                	<div class="project-picture-wrap"><img src="http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg" alt="Image"></div>
+                                    <h5>Contractor Pictures (10)</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-section">
+                    <div class="project-section-title">Milestones</div>
+                    <div class="project-milestones project-section-content">
+                        <div class="project-milestone">
+                            <h3 class="project-milestone-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eos.</h3>
+                            <div class="project-milestone-stats">
+                                <span class="project-milestone-status project-milestone-status-active">Active Milestone</span>
+                                <span class="project-milestone-date">Due by July 4</span>
+                            </div>
+                        </div>
+                        <div class="project-milestone">
+                            <h3 class="project-milestone-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eos.</h3>
+                            <div class="project-milestone-stats">
+                                <span class="project-milestone-status">Not started</span>
+                                <span class="project-milestone-date">Due by July 26</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='map' style="position: absolute;"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.0/vue.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
