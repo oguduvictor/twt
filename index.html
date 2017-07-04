@@ -40,10 +40,10 @@
             </div>
             <div class="sidebar-projects">
                 <div class="sidebar-search">
-                    <input type="text" placeholder="Search for a project">
+                    <input type="text" v-model="search" placeholder="Search for a project">
                 </div>
                 <div class="sidebar-list">
-                    <div v-for="project in projects">
+                    <div v-for="project in filteredProjects">
                         <a class="sidebar-project" v-on:click="show(project.id)">
                             <h3>{{project.title}}</h3>
                             <div class="sidebar-project-progress">
@@ -54,7 +54,7 @@
                 </div>
             </div>
         </div>
-        <div class="project" class="animated fadeIn" v-if="active">
+        <div class="project" style="position: fixed;" class="animated fadeIn" v-if="active">
             <div class="project-overlay" v-on:click="active = null"></div>
             <div class="project-content">
                 <div class="project-stats">
@@ -118,7 +118,7 @@
             </div>
         </div>
     </div>
-    <div id='map' style="position: absolute;"></div>
+    <div id='map' style="position: fixed;"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.0/vue.js"></script>
     <script src="js/app.js"></script>
 </body>
