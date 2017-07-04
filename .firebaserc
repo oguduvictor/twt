@@ -1,5 +1,6 @@
 {
   "projects": {
-    "production": "watchtower-ca6ef"
+    "production": "watchtower-9a3e2",
+    "default": "watchtower-9a3e2"
   }
 }
