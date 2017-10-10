@@ -12,7 +12,7 @@ var app = new Vue({
         	percent_completion: 60,
         	funds_disbursed: '1,259,836,471.46',
         	state: "Kogi",
-        	image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+        	image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
         	lat: 7.9074,
         	long: 6.5783
         }, {
@@ -23,7 +23,7 @@ var app = new Vue({
         	percent_completion: 20,
         	funds_disbursed: '319,836,471.46',
         	state: "Ondo",
-        	image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+        	image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
         	lat: 7.2571,
         	long: 5.2058
         }, {
@@ -34,7 +34,7 @@ var app = new Vue({
             percent_completion: 50,
             funds_disbursed: '679,836,471.46',
             state: "Zamfara",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 12.16284,
             long: 6.6745
         }, {
@@ -45,7 +45,7 @@ var app = new Vue({
             percent_completion: 25,
             funds_disbursed: '919,996,461.46',
             state: "Sokoto",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 13.00587,
             long: 5.24755
         }, {
@@ -56,7 +56,7 @@ var app = new Vue({
             percent_completion: 80,
             funds_disbursed: '699,836,983.46',
             state: "Kano",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 12.00217,
             long: 8.59195
         }, {
@@ -67,7 +67,7 @@ var app = new Vue({
             percent_completion: 90,
             funds_disbursed: '123,536,471.46',
             state: "Nassarawa",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 8.50601,
             long: 8.52267
         }, {
@@ -78,7 +78,7 @@ var app = new Vue({
             percent_completion: 75,
             funds_disbursed: '1,219,836,471.46',
             state: "Kaduna",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 10.51046,
             long: 7.4165
         }, {
@@ -89,7 +89,7 @@ var app = new Vue({
             percent_completion: 20,
             funds_disbursed: '2,389,836,471.46',
             state: "Taraba",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 8.89285,
             long: 11.37714
         }, {
@@ -100,7 +100,7 @@ var app = new Vue({
             percent_completion: 75,
             funds_disbursed: '891,836,471.46',
             state: "Ogun",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 7.1453,
             long: 3.35904
         }, {
@@ -111,7 +111,7 @@ var app = new Vue({
             percent_completion: 50,
             funds_disbursed: '2,132,233,711.34',
             state: "Federal Capital Territory",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 9.07647,
             long: 7.39857
         }, {
@@ -122,7 +122,7 @@ var app = new Vue({
             percent_completion: 70,
             funds_disbursed: '439,636,971.46',
             state: "Akwa Ibom",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 5.03773,
             long: 7.91279
         }, {
@@ -133,7 +133,7 @@ var app = new Vue({
             percent_completion: 50,
             funds_disbursed: '1,200,121,021.46',
             state: "Delta",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 6.20592,
             long: 6.69589
         }, {
@@ -144,7 +144,7 @@ var app = new Vue({
             percent_completion: 75,
             funds_disbursed: '836,319,471.46',
             state: "Abia",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 5.52495,
             long: 7.49224
         }, {
@@ -155,7 +155,7 @@ var app = new Vue({
             percent_completion: 50,
             funds_disbursed: '1,319,836,471.72',
             state: "Edo",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 6.33498,
             long: 5.60374
         }, {
@@ -166,7 +166,7 @@ var app = new Vue({
             percent_completion: 70,
             funds_disbursed: '385,286,781.90',
             state: "Enugu",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 6.45836,
             long: 7.54638
         }, {
@@ -177,7 +177,7 @@ var app = new Vue({
             percent_completion: 62.5,
             funds_disbursed: '789,086,490.23',
             state: "Kwara",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 8.47987,
             long: 4.54181
         }, {
@@ -188,7 +188,7 @@ var app = new Vue({
             percent_completion: 50,
             funds_disbursed: '1,431,363,421.65',
             state: "Oyo",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 7.37753,
             long: 3.94703
         }, {
@@ -199,7 +199,7 @@ var app = new Vue({
             percent_completion: 20,
             funds_disbursed: '1,532,648,908.22',
             state: "Lagos",
-            image: "http://silverbirdtv.com/sites/default/files/field/image/Lagos-Badagry-Road.jpg",
+            image: "https://d30y9cdsu7xlg0.cloudfront.net/png/42732-200.png",
             lat: 6.60183,
             long: 3.35148
         }]
